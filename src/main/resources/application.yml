@@ -1,0 +1,13 @@
+blizzard:
+  region: eu
+  api-base-url: https://eu.api.blizzard.com
+  oauth-token-url: https://oauth.battle.net/token
+  client-id: ${BLIZZARD_CLIENT_ID}
+  client-secret: ${BLIZZARD_CLIENT_SECRET}
+  locale: de_DE
+spring:
+  application:
+    name: WoW-Auctionhouse-App
+  http:
+    codecs:
+      max-in-memory-size: 64MB
